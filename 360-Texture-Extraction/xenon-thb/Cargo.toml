@@ -1,0 +1,10 @@
+[package]
+name = "xenon-thb"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+binrw = "0.15.0"
+x-flipper-360 = { path = "../x-flipper-360/" }
+dds = { path = "../dds/" }
+clap = { version = "4.5.41", features = ["derive"] }
